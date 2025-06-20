@@ -71,8 +71,8 @@ public class BisHeadCar : MonoBehaviour
 [UnityEngine.Serialization.FormerlySerializedAs("ready")]    public bool Arise= false;
     //ios 获取idfa函数声明
 #if UNITY_IOS
-    [DllImport("__Internal")]
-    internal extern static void getIDFA();
+    //[DllImport("__Internal")]
+    //internal extern static void getIDFA();
 #endif
     void Awake()
     {
@@ -94,7 +94,7 @@ public class BisHeadCar : MonoBehaviour
         else if (Application.platform == RuntimePlatform.IPhonePlayer)
         {
 #if UNITY_IOS
-            getIDFA();
+            //getIDFA();
             string idfv = UnityEngine.iOS.Device.vendorIdentifier;
             AutoTineScratch.YouLaunch("idfv", idfv);
 #endif
