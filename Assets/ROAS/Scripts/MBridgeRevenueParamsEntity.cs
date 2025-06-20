@@ -95,12 +95,25 @@ public class MBridgeRevenueParamsEntity
 #endif
     #endregion
 
+
+
+    #region tradplus
+#if TRADPLUS
+    public Dictionary<string, object> tradplusadInfo = new Dictionary<string, object>();
+    public void SetTradplusAdInfo(Dictionary<string,object>adInfo)
+    {
+        this.tradplusadInfo = adInfo;
+    }
+#endif
+    #endregion
+
     public MBridgeRevenueParamsEntity(string attributionPlatformName, string attributionPlatformUserId)
     {
         this.attributionPlatformName = attributionPlatformName;
         this.attributionPlatformUserId = attributionPlatformUserId;
     }
 
+    
 }
 
 public enum admobAdType
@@ -114,3 +127,26 @@ public enum admobAdType
     AppOpen,
     None
 }
+
+
+    public class MBridgeRevenueCustomAdData
+    {
+        public string AttributionPlatformName { get; set; }
+        public string AttributionPlatformUserId { get; set; }
+        public string MediationName { get; set; }
+        public string MediationUnitId { get; set; }
+        public string AdNetworkName { get; set; }
+        public string Precision { get; set; }
+        public string Currency { get; set; }
+        public double? Revenue { get; set; }
+        public Dictionary<string, object> AdNetworkUnitInfo { get; set; }
+        public bool IsBidding { get; set; }
+        public string AdType { get; set; }
+        public string DspId { get; set; }
+        public string DspName { get; set; }
+        public Dictionary<string, object> AllInfo { get; set; }
+      
+    }
+
+
+      

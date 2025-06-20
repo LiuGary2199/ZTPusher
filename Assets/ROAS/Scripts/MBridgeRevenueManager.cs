@@ -5,15 +5,40 @@ using UnityEngine;
 
 public class MBridgeRevenueManager
 {
-    public const string MBridge_Version = "1.0.0";
+    public const string MBridge_Version = "1.0.3";
     
 #if UNITY_IOS || UNITY_IPHONE
     [DllImport("__Internal")]
     private static extern void _trackAdRevenueWithAdRevenueModel(string info);
+    
+    [DllImport("__Internal")]
+    private static extern void _trackAdRevenueWithAdCustomModel(string info);
 
 #endif
 
+    public static void TrackCustom(MBridgeRevenueCustomAdData adData)
+    {
+       Dictionary<string, object> dic = new Dictionary<string, object>();
+       var properties = typeof(MBridgeRevenueCustomAdData).GetProperties();
+       foreach (var property in properties)
+       {
+           var propertyName = property.Name;
+           var propertyValue = property.GetValue(adData);
+           if (propertyValue != null)
+           {
+               dic.Add(propertyName, propertyValue);
+           }
+       }
+       dic.Add("mBridge_Version", MBridge_Version);
+       var json=ROSA.ThirdParty.MiniJson.Json.Serialize(dic);
+#if UNITY_IOS || UNITY_IPHONE
+        _trackAdRevenueWithAdCustomModel(json);
+#elif UNITY_ANDROID
+        MUnityDataSendBridge.getInstance().trackAdCustom(json);
+#endif
 
+
+    }
    public static void Track(MBridgeRevenueParamsEntity mBridgeRevenueParamsEntity)
     {
         try
@@ -22,6 +47,8 @@ public class MBridgeRevenueManager
             dic.Add("attributionPlatformName", mBridgeRevenueParamsEntity.attributionPlatformName);
             dic.Add("attributionUserID", mBridgeRevenueParamsEntity.attributionPlatformUserId);
             dic.Add("mBridge_Version", MBridge_Version);
+            #region AdMob
+
 #if AdMob
             dic.Add("mediationName", mediationName.Admob.ToString());
             dic.Add("adUnitID", mBridgeRevenueParamsEntity.adUnitID);
@@ -77,7 +104,9 @@ public class MBridgeRevenueManager
 
 #endif
 #endif
-
+            #endregion
+            
+            #region ironSource
 #if ironSource
 
             if (mBridgeRevenueParamsEntity!=null && mBridgeRevenueParamsEntity.instanceid == null)
@@ -103,7 +132,9 @@ public class MBridgeRevenueManager
 
 #endif
 #endif
+           #endregion
 
+            #region MAX
 #if MAX
             dic.Add("mediationName", mediationName.Max.ToString());
             if (mBridgeRevenueParamsEntity.AdInfo == null)
@@ -168,8 +199,30 @@ public class MBridgeRevenueManager
 
 #endif
 #endif
+            #endregion
 
+            #region TRADPLUS
+#if TRADPLUS
+            dic.Add("mediationName", mediationName.Tradeplus.ToString());
+            if (mBridgeRevenueParamsEntity.tradplusadInfo == null)
+                dic.Add("adInfo", "");
+            else
+                dic.Add("adInfo",mBridgeRevenueParamsEntity.tradplusadInfo);
+           
+            var TPAdJsonStr = ROSA.ThirdParty.MiniJson.Json.Serialize(dic);
+            if (MUnityDataSendBridge.getInstance().isDebug)
+                Debug.Log("ROAS  tradplus Ad JSON" + TPAdJsonStr);
+#if UNITY_IOS || UNITY_IPHONE
+            _trackAdRevenueWithAdRevenueModel(TPAdJsonStr);
+#elif UNITY_ANDROID
+            MUnityDataSendBridge.getInstance().trackAdRevenue(TPAdJsonStr);
+#endif
+#endif
+
+
+            #endregion
         }
+        
         catch (System.Exception ex)
         {
             Debug.LogError("ROSA Unity Plugins Error"+ ex);
@@ -186,5 +239,6 @@ public enum mediationName
 {
     Max,
     Admob,
-    IronSource
+    IronSource,
+    Tradeplus
 }

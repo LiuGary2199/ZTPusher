@@ -71,6 +71,25 @@ public class MUnityDataSendBridge
         trackAdRevenue(trackAdJsonStr,"");
     }
 
+    public void trackAdCustom(string trackAdJsonStr)
+    {
+        try
+        {
+            AndroidJavaObject applicationContext = getApplicationContext();
+            if (applicationContext != null)
+            {
+                _mUnityDataSend.CallStatic("trackAdCustom", applicationContext, trackAdJsonStr);
+            }
+            else
+            {
+                Debug.LogError("Failed to get application context.");
+            }
+        }
+        catch (System.Exception ex)
+        {
+            Debug.LogError("Exception occurred while calling trackAdRevenue: " + ex.Message);
+        }
+    }
 
     private AndroidJavaObject getApplicationContext()
     {

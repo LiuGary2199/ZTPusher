@@ -9,25 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70b28b7ab17dd384db257c4219aa84b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 8cfa82d0e8e567441a9afd76d4651a67, type: 3}
   m_Name: AppLovinSettings
   m_EditorClassIdentifier: 
   qualityServiceEnabled: 1
   sdkKey: jsNNAA+pudntojfVh9dy1r4JV1XPQqR8HEcC7P/TGln8NZN5dFld4nYuVoQ7KNkrWljoIL/6LGvf+hR8YacQ/8EOmzMkG39w0MZxw59ibF127HmzBwX6iA==
   setAttributionReportEndpoint: 0
-  consentFlowEnabled: 0
-  consentFlowPlatform: 0
-  consentFlowPrivacyPolicyUrl: 
-  consentFlowTermsOfServiceUrl: 
-  userTrackingUsageDescriptionEn: 
-  userTrackingUsageLocalizationEnabled: 0
-  userTrackingUsageDescriptionDe: 
-  userTrackingUsageDescriptionEs: 
-  userTrackingUsageDescriptionFr: 
-  userTrackingUsageDescriptionJa: 
-  userTrackingUsageDescriptionKo: 
-  userTrackingUsageDescriptionZhHans: 
-  userTrackingUsageDescriptionZhHant: 
+  addApsSkAdNetworkIds: 0
+  customGradleVersionUrl: 
+  customGradleToolsVersion: 
   adMobAndroidAppId: 
   adMobIosAppId: 
-  showInternalSettingsInIntegrationManager: 0

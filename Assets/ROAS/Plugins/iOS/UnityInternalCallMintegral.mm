@@ -17,8 +17,7 @@ extern "C" {
 static NSString *const kMTG_Mediation_Admob = @"Admob";
 static NSString *const kMTG_Mediation_IronSource = @"IronSource";
 static NSString *const kMTG_Mediation_Max = @"Max";
-
-
+static NSString *const kMTG_Mediation_Tradeplus=@"Tradeplus";
 
 
 static NSString *const kMTG_mediationName = @"mediationName";
@@ -65,6 +64,25 @@ static NSString *const kMTG_max_DspName = @"DspName";
 
 
 
+//tradeplus key
+static NSString *const kMTG_tp_adInfo = @"adInfo";
+
+
+//Custom key
+static NSString *const KMTG_Custom_attributionPlatformName = @"AttributionPlatformName";
+static NSString *const KMTG_Custom_attributionPlatformUserId = @"AttributionPlatformUserId";
+static NSString *const KMTG_Custom_MediationName = @"MediationName";
+static NSString *const KMTG_Custom_MediationUnitId = @"MediationUnitId";
+static NSString *const KMTG_Custom_AdNetworkName = @"AdNetworkName";
+static NSString *const KMTG_Custom_Precision = @"Precision";
+static NSString *const KMTG_Custom_Currency = @"Currency";
+static NSString *const KMTG_Custom_Revenue = @"Revenue";
+static NSString *const KMTG_Custom_AdNetworkUnitInfo = @"AdNetworkUnitInfo";
+static NSString *const KMTG_Custom_IsBidding = @"IsBidding";
+static NSString *const KMTG_Custom_AdType = @"AdType";
+static NSString *const KMTG_Custom_DspId = @"DspId";
+static NSString *const KMTG_Custom_DspName = @"DspName";
+static NSString *const KMTG_Custom_AllInfo = @"AllInfo";
 
 static bool debug = false;
 static bool mtg_check_nsstring(NSString *arg) {
@@ -113,12 +131,28 @@ static bool mtg_check_dict(NSDictionary *arg) {
         NSData *jsonData = [string dataUsingEncoding:NSUTF8StringEncoding];
         NSDictionary *dics = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:NULL];
      
-        
+        NSString *mediationName = dics[kMTG_mediationName];
+        if([mediationName isEqualToString:kMTG_Mediation_Tradeplus]){
+            MTGTrackAdRevenueTradPlusModel*tpModel=[[MTGTrackAdRevenueTradPlusModel alloc]init];
+             NSDictionary *adInfo = dics[kMTG_tp_adInfo];
+            tpModel.attributionPlatformName=dics[kMTG_attributionPlatformName];
+            tpModel.attributionUserID = dics[kMTG_attributionUserID];
+             if(mtg_check_dict(adInfo)){
+                 tpModel.adInfo=adInfo;
+             }
+            if(mtg_check_nsstring(dics[kMTG_mBridge_Version])){
+                tpModel.extraData = @{kMTG_u_p_v:dics[kMTG_mBridge_Version]};
+            }
+          
+            [MTGTrackAdRevenue trackAdRevenueWithAdRevenueModel:tpModel];
+            return;
+         }
+         
         MTGTrackAdRevenueCustomModel *customModel = [[MTGTrackAdRevenueCustomModel alloc]init];
        
         customModel.attributionPlatformName =  dics[kMTG_attributionPlatformName];
         customModel.attributionUserID = dics[kMTG_attributionUserID];
-        NSString *mediationName = dics[kMTG_mediationName];
+      
         if(mtg_check_nsstring(mediationName))
         {
             customModel.mediationName = mediationName;
@@ -205,10 +239,94 @@ static bool mtg_check_dict(NSDictionary *arg) {
         [MTGTrackAdRevenue trackAdRevenueWithAdRevenueModel:customModel];
 
        
-   
-    
-        
-        
     }
+
+void _trackAdRevenueWithAdCustomModel(char * jsonpara){
+    if (jsonpara == NULL)
+        return;
+    if(debug)
+        NSLog(@"ROAS _trackAdRevenueWithAdCustomModel %s",jsonpara);
+    NSString*string=[[NSString alloc] initWithUTF8String:jsonpara];
+    
+    NSData *jsonData = [string dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *dics = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:NULL];
+ 
+    MTGTrackAdRevenueCustomModel *customModel = [[MTGTrackAdRevenueCustomModel alloc]init];
+    
+    NSString *AttributionPlatformName = dics[KMTG_Custom_attributionPlatformName];
+    if(mtg_check_nsstring( AttributionPlatformName))
+        customModel.attributionPlatformName =  AttributionPlatformName;
+    
+    
+    NSString *AttributionPlatformUserId = dics[KMTG_Custom_attributionPlatformUserId];
+    if(mtg_check_nsstring( AttributionPlatformUserId))
+        customModel.attributionUserID =  AttributionPlatformUserId;
+    
+    
+    NSString *MediationName = dics[KMTG_Custom_MediationName];
+    if(mtg_check_nsstring( MediationName))
+        customModel.mediationName =  MediationName;
+    
+    
+    NSString *MediationUnitId = dics[KMTG_Custom_MediationUnitId];
+    if(mtg_check_nsstring( MediationUnitId))
+        customModel.mediationUnitId =  MediationUnitId;
+    
+    
+    NSString *AdNetworkName = dics[KMTG_Custom_AdNetworkName];
+    if(mtg_check_nsstring( AdNetworkName))
+        customModel.adNetworkName =  AdNetworkName;
+    
+    
+    
+    NSString *Precision = dics[KMTG_Custom_Precision];
+    if(mtg_check_nsstring( Precision))
+        customModel.precision =  Precision;
+    
+    
+    
+    NSString *Currency = dics[KMTG_Custom_Currency];
+    if(mtg_check_nsstring( Currency))
+        customModel.currency = Currency;
+    
+    
+    NSNumber *Revenue  = dics[KMTG_Custom_Revenue];
+    if (Revenue != nil)
+        customModel.revenue = @([Revenue doubleValue]);
+        
+        
+    NSDictionary *AdNetworkUnitInfo = dics[KMTG_Custom_AdNetworkUnitInfo];
+    if(mtg_check_dict(AdNetworkUnitInfo))
+        customModel.adNetworkUnitInfo =  AdNetworkUnitInfo;
+    
+    
+    customModel.isBidding = [dics[KMTG_Custom_IsBidding]boolValue];
+    
+    
+    NSString *AdType = dics[KMTG_Custom_DspId];
+    if(mtg_check_nsstring( AdType))
+        customModel.dspId = AdType;
+    
+    
+    NSString *DspId = dics[KMTG_Custom_AdType];
+    if(mtg_check_nsstring( DspId))
+        customModel.adType = DspId;
+    
+    NSString *DspName = dics[KMTG_Custom_DspName];
+    if(mtg_check_nsstring( DspName))
+        customModel.dspName = DspName;
+    
+    
+    NSDictionary *AllInfo = dics[KMTG_Custom_AllInfo];
+    if(mtg_check_dict(AllInfo))
+        customModel.allInfo =  AllInfo;
+    
+    if(mtg_check_nsstring(dics[kMTG_mBridge_Version])){
+        customModel.extraData = @{kMTG_u_p_v:dics[kMTG_mBridge_Version]};
+    }
+  
+    [MTGTrackAdRevenue trackAdRevenueWithAdRevenueModel:customModel];
+ 
+}
     
 }

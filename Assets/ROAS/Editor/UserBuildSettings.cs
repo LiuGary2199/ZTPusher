@@ -11,7 +11,7 @@ public class UserBuildSettings : MonoBehaviour
     private const string ironsource ="ironSource";
     private const string admob = "AdMob";
     private const string max = "MAX";
-
+    private const string tradplus = "TRADPLUS";
 
    
     private static void ShowTips(string title, string content)
@@ -90,6 +90,25 @@ public class UserBuildSettings : MonoBehaviour
 
 #endif
     }
+    [MenuItem(MTG_iOS + tradplus)]
+    public static void iOS_tradplus()
+    {
+        ShowPlayerTips4notiOS();
+#if UNITY_IPHONE || UNITY_IOS
+        string str = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.iOS);
+
+        Debug.Log("old " + str);
+        str = str.Replace(tradplus, null);
+
+        PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.iOS,
+               tradplus + ";" + str);
+        Debug.Log("new " + PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.iOS));
+
+
+
+#endif
+    }
+    
     [MenuItem(MTG_Android + ironsource)]
     public static void Android_ironsource()
     {
@@ -141,6 +160,22 @@ public class UserBuildSettings : MonoBehaviour
 
 #endif
     }
+    [MenuItem(MTG_Android + tradplus)]
+    public static void Android_tradplus()
+    {
+        ShowPlayerTips4notAndroid();
+#if UNITY_ANDROID
 
+        string str = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android);
+
+        Debug.Log("old " + str);
+        str = str.Replace(tradplus, null);
+
+        PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android,
+            tradplus + ";" + str);
+        Debug.Log("new " + PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android));
+
+#endif
+    }
 }
 #endif

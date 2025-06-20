@@ -1,8 +1,5 @@
 fileFormatVersion: 2
-guid: 6ed96bef15c70423594880cd6b31da4f
-labels:
-- al_max
-- al_max_export_path-MaxSdk/Mediation/Vungle
+guid: 23aab031bd3954044b61b4791a3cf73c
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

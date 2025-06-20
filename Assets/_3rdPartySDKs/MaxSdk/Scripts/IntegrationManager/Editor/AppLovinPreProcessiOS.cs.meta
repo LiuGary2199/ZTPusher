@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 8cbf0beb3301b054ab5408d86ae01249
+guid: 1029c813e03d2734b98dbdb988a04330
 labels:
 - al_max
-- al_max_export_path-MaxSdk/Scripts/Editor/MaxPostProcessBuildiOS.cs
+- al_max_export_path-MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPreProcessiOS.cs
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
