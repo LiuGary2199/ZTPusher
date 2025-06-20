@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705577593}
-  m_IndirectSpecularColor: {r: 0.44198647, g: 0.49095184, b: 0.5708942, a: 1}
+  m_IndirectSpecularColor: {r: 0.4394965, g: 0.48776513, b: 0.56836313, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -187,7 +187,15 @@ PrefabInstance:
       value: RewardItem (20)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -341,7 +349,15 @@ PrefabInstance:
       value: RewardItem (11)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -495,7 +511,15 @@ PrefabInstance:
       value: RewardItem (64)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -649,7 +673,15 @@ PrefabInstance:
       value: RewardItem (108)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -893,7 +925,15 @@ PrefabInstance:
       value: RewardItem (95)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -1047,7 +1087,15 @@ PrefabInstance:
       value: RewardItem (44)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -1201,7 +1249,15 @@ PrefabInstance:
       value: RewardItem (121)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -1321,6 +1377,10 @@ PrefabInstance:
     - target: {fileID: 8281556653566893341, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
@@ -1671,7 +1731,15 @@ PrefabInstance:
       value: RewardItem (83)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -1844,7 +1912,15 @@ PrefabInstance:
       value: RewardItem (84)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -1998,7 +2074,15 @@ PrefabInstance:
       value: RewardItem (79)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -2147,7 +2231,15 @@ PrefabInstance:
       value: RewardItem (85)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -2267,6 +2359,10 @@ PrefabInstance:
     - target: {fileID: 8281556653566893341, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
@@ -2432,6 +2528,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7754982331343569376}
   m_RootOrder: 0
@@ -2500,7 +2597,15 @@ PrefabInstance:
       value: RewardItem (19)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -2659,7 +2764,15 @@ PrefabInstance:
       value: RewardItem (12)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -2813,7 +2926,15 @@ PrefabInstance:
       value: RewardItem (13)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -2962,7 +3083,15 @@ PrefabInstance:
       value: RewardItem (43)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -3062,6 +3191,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1912357043}
   - {fileID: 645610123}
@@ -3222,7 +3352,15 @@ PrefabInstance:
       value: RewardItem (104)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -3317,6 +3455,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1180688618}
   - {fileID: 798075923}
@@ -3410,7 +3549,15 @@ PrefabInstance:
       value: RewardItem (82)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -3559,7 +3706,15 @@ PrefabInstance:
       value: RewardItem (77)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -3718,7 +3873,15 @@ PrefabInstance:
       value: RewardItem (127)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -3813,6 +3976,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1669862543}
   m_RootOrder: 0
@@ -4024,7 +4188,15 @@ PrefabInstance:
       value: RewardItem (113)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4183,7 +4355,15 @@ PrefabInstance:
       value: RewardItem (78)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4332,7 +4512,15 @@ PrefabInstance:
       value: RewardItem (74)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4486,7 +4674,15 @@ PrefabInstance:
       value: RewardItem (31)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4645,7 +4841,15 @@ PrefabInstance:
       value: RewardItem (26)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4767,6 +4971,7 @@ Transform:
   m_LocalRotation: {x: 0.16230132, y: -0, z: -0, w: 0.98674124}
   m_LocalPosition: {x: 0, y: 44.1, z: 14.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 735030580}
   m_Father: {fileID: 7754982331343569376}
@@ -4858,7 +5063,15 @@ PrefabInstance:
       value: RewardItem (123)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -4969,6 +5182,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 968495794}
   - {fileID: 1955358335}
@@ -5053,7 +5267,15 @@ PrefabInstance:
       value: RewardItem (46)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -5145,19 +5367,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450331308}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -5707,6 +5929,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 1
     rotation3D: 0
     gravityModifier:
@@ -9872,6 +10095,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.3500001, y: 0.29999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 601595691}
   m_RootOrder: 1
@@ -9888,6 +10112,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -9918,6 +10143,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_RenderMode: 0
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1
@@ -9941,6 +10167,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!4 &451367056 stripped
 Transform:
@@ -10011,7 +10241,15 @@ PrefabInstance:
       value: RewardItem (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10165,7 +10403,15 @@ PrefabInstance:
       value: RewardItem (49)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10319,7 +10565,15 @@ PrefabInstance:
       value: RewardItem (54)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10473,7 +10727,15 @@ PrefabInstance:
       value: RewardItem (118)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10584,6 +10846,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543450652745318288}
   - {fileID: 7788274251655488963}
@@ -10661,7 +10924,15 @@ PrefabInstance:
       value: RewardItem (75)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10815,7 +11086,15 @@ PrefabInstance:
       value: RewardItem (16)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -10969,7 +11248,15 @@ PrefabInstance:
       value: RewardItem (59)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -11128,7 +11415,15 @@ PrefabInstance:
       value: RewardItem (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -11320,6 +11615,10 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
       value: 6
       objectReference: {fileID: 0}
@@ -11486,7 +11785,15 @@ PrefabInstance:
       value: RewardItem (135)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -11582,6 +11889,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11632,6 +11940,7 @@ Transform:
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: -0.06, y: 0.136, z: 1.682}
   m_LocalScale: {x: 0.29, y: 0.29, z: 0.29}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 601595691}
   m_Father: {fileID: 543450652745318288}
@@ -11680,6 +11989,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1738601119}
   - {fileID: 450360783}
@@ -11755,7 +12065,15 @@ PrefabInstance:
       value: RewardItem (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -11904,7 +12222,15 @@ PrefabInstance:
       value: RewardItem (134)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12063,7 +12389,15 @@ PrefabInstance:
       value: RewardItem (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12217,7 +12551,15 @@ PrefabInstance:
       value: RewardItem (125)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12366,7 +12708,15 @@ PrefabInstance:
       value: RewardItem (69)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12525,7 +12875,15 @@ PrefabInstance:
       value: RewardItem (0)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12679,7 +13037,15 @@ PrefabInstance:
       value: RewardItem (80)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -12796,6 +13162,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.88, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1042418826}
   m_RootOrder: 2
@@ -12879,7 +13246,15 @@ PrefabInstance:
       value: RewardItem (61)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -13036,6 +13411,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 85.181656}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -13189,6 +13565,7 @@ Transform:
   m_LocalRotation: {x: 0.52195686, y: -0, z: -0, w: 0.85297185}
   m_LocalPosition: {x: -0.07, y: 3.11, z: -6.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -13262,7 +13639,15 @@ PrefabInstance:
       value: RewardItem (97)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -13375,6 +13760,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13425,6 +13811,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -40, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1000692560}
   - {fileID: 1042418826}
@@ -13495,7 +13882,15 @@ PrefabInstance:
       value: RewardItem (36)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -13649,7 +14044,15 @@ PrefabInstance:
       value: RewardItem (86)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -13808,7 +14211,15 @@ PrefabInstance:
       value: RewardItem (40)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -14030,6 +14441,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543450652339056220}
   - {fileID: 543450652033302597}
@@ -14040,7 +14452,7 @@ Transform:
   - {fileID: 543450652200433171}
   - {fileID: 1892096103}
   m_Father: {fileID: 7754982331343569376}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773979195
 GameObject:
@@ -14172,6 +14584,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1669862543}
   m_RootOrder: 1
@@ -14257,7 +14670,15 @@ PrefabInstance:
       value: RewardItem (102)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -14384,6 +14805,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: -0.13052624, w: 0.9914449}
   m_LocalPosition: {x: 3.5, y: 1.05, z: -0.97}
   m_LocalScale: {x: 1, y: 6.36401, z: 3.1139507}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 267850787}
   m_RootOrder: 1
@@ -14412,6 +14834,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14511,7 +14934,15 @@ PrefabInstance:
       value: RewardItem (9)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -14620,6 +15051,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 438954744}
   m_RootOrder: 5
@@ -14710,7 +15142,15 @@ PrefabInstance:
       value: RewardItem (21)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -14864,7 +15304,15 @@ PrefabInstance:
       value: RewardItem (50)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -14954,56 +15402,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 26634219765384943, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
   m_PrefabInstance: {fileID: 816533234}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &832816160
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832860457}
-  - component: {fileID: 832855563}
-  m_Layer: 0
-  m_Name: Adjust
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &832855563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832816160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3de61c3904f1f642be9ffd8ecc95333, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startManually: 1
-  eventBuffering: 0
-  sendInBackground: 0
-  launchDeferredDeeplink: 1
-  appToken: m8eshkye6sjk
-  logLevel: 1
-  environment: 1
---- !u!4 &832860457
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832816160}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &836418211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15068,7 +15466,15 @@ PrefabInstance:
       value: RewardItem (41)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -15222,7 +15628,15 @@ PrefabInstance:
       value: RewardItem (122)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -15376,7 +15790,15 @@ PrefabInstance:
       value: RewardItem (81)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -15509,6 +15931,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -30.84069, z: 83.93257}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -15582,7 +16005,15 @@ PrefabInstance:
       value: RewardItem (110)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -15736,7 +16167,15 @@ PrefabInstance:
       value: RewardItem (25)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -15831,6 +16270,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.03, y: 1.05, z: -6.25}
   m_LocalScale: {x: 1, y: 11.8771515, z: 8.582671}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 267850787}
   m_RootOrder: 3
@@ -15886,6 +16326,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15980,7 +16421,15 @@ PrefabInstance:
       value: RewardItem (106)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -16081,6 +16530,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16209,6 +16659,7 @@ Transform:
   m_LocalRotation: {x: 0.1805191, y: -0, z: -0, w: 0.98357147}
   m_LocalPosition: {x: 0, y: 2.005, z: -0.986}
   m_LocalScale: {x: 0.8569783, y: 0.75902104, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1401293727}
   m_RootOrder: 1
@@ -16309,7 +16760,15 @@ PrefabInstance:
       value: RewardItem (33)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -16458,7 +16917,15 @@ PrefabInstance:
       value: RewardItem (130)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -16685,7 +17152,15 @@ PrefabInstance:
       value: RewardItem (63)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -16780,6 +17255,7 @@ Transform:
   m_LocalRotation: {x: 0.16230132, y: 0, z: 0, w: 0.98674124}
   m_LocalPosition: {x: 0, y: 4.67, z: -9.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -16926,6 +17402,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 438954744}
   m_RootOrder: 0
@@ -16999,7 +17476,15 @@ PrefabInstance:
       value: RewardItem (132)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -17251,7 +17736,15 @@ PrefabInstance:
       value: RewardItem (91)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -17367,6 +17860,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.03, y: 1.05, z: 0.9}
   m_LocalScale: {x: 1, y: 11.8771515, z: 8.582671}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 267850787}
   m_RootOrder: 2
@@ -17382,6 +17876,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17459,6 +17954,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17509,6 +18005,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 735030580}
   m_RootOrder: 0
@@ -17582,7 +18079,15 @@ PrefabInstance:
       value: RewardItem (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -17731,7 +18236,15 @@ PrefabInstance:
       value: RewardItem (24)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -17890,7 +18403,15 @@ PrefabInstance:
       value: RewardItem (38)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -17986,6 +18507,7 @@ SpriteMask:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18035,6 +18557,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.55, z: -0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1493378544}
   - {fileID: 1064558936}
@@ -18123,7 +18646,15 @@ PrefabInstance:
       value: RewardItem (15)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -18238,6 +18769,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.88, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1042418826}
   m_RootOrder: 1
@@ -18333,7 +18865,15 @@ PrefabInstance:
       value: RewardItem (28)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -18487,7 +19027,15 @@ PrefabInstance:
       value: RewardItem (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -18588,6 +19136,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18648,6 +19197,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.16, z: -14.86}
   m_LocalScale: {x: 8.83, y: 1, z: 21}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7754982331343569376}
   m_RootOrder: 8
@@ -18757,7 +19307,15 @@ PrefabInstance:
       value: RewardItem (70)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -18906,7 +19464,15 @@ PrefabInstance:
       value: RewardItem (105)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19065,7 +19631,15 @@ PrefabInstance:
       value: RewardItem (72)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19214,7 +19788,15 @@ PrefabInstance:
       value: RewardItem (42)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19334,6 +19916,10 @@ PrefabInstance:
     - target: {fileID: 8281556653566893341, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
@@ -19502,7 +20088,15 @@ PrefabInstance:
       value: RewardItem (27)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19661,7 +20255,15 @@ PrefabInstance:
       value: RewardItem (103)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19815,7 +20417,15 @@ PrefabInstance:
       value: RewardItem (100)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -19974,7 +20584,15 @@ PrefabInstance:
       value: RewardItem (58)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -20158,7 +20776,15 @@ PrefabInstance:
       value: RewardItem (98)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -20254,6 +20880,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -20321,9 +20948,61 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1683515070}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1147977954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1147977956}
+  - component: {fileID: 1147977955}
+  m_Layer: 0
+  m_Name: Adjust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1147977955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147977954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3de61c3904f1f642be9ffd8ecc95333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startManually: 1
+  eventBuffering: 0
+  sendInBackground: 0
+  launchDeferredDeeplink: 1
+  appToken: m8eshkye6sjk
+  logLevel: 1
+  environment: 1
+--- !u!4 &1147977956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147977954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1152368256
 PrefabInstance:
@@ -20389,7 +21068,15 @@ PrefabInstance:
       value: RewardItem (96)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -20543,7 +21230,15 @@ PrefabInstance:
       value: RewardItem (66)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -20697,7 +21392,15 @@ PrefabInstance:
       value: RewardItem (133)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -21000,7 +21703,15 @@ PrefabInstance:
       value: RewardItem (65)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -21101,6 +21812,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21181,6 +21893,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0.13052616, w: 0.9914449}
   m_LocalPosition: {x: -3.5, y: 1.9, z: -0.97}
   m_LocalScale: {x: 1, y: 6.36401, z: 3.1139507}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 267850787}
   m_RootOrder: 0
@@ -21345,6 +22058,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -21413,6 +22127,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.155, z: 0}
   m_LocalScale: {x: 0.4, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7788274249687258910}
   m_RootOrder: 0
@@ -21513,7 +22228,15 @@ PrefabInstance:
       value: RewardItem (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -21662,7 +22385,15 @@ PrefabInstance:
       value: RewardItem (10)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -21805,6 +22536,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.21, y: 3.93, z: -1}
   m_LocalScale: {x: 0.2, y: 5.08, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2012425630}
   m_RootOrder: 1
@@ -21873,7 +22605,15 @@ PrefabInstance:
       value: RewardItem (89)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22024,6 +22764,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.259429, y: -94.861084, z: 158.45734}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -22200,7 +22941,15 @@ PrefabInstance:
       value: RewardItem (101)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22349,7 +23098,15 @@ PrefabInstance:
       value: RewardItem (29)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22513,7 +23270,15 @@ PrefabInstance:
       value: RewardItem (62)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22662,7 +23427,15 @@ PrefabInstance:
       value: RewardItem (131)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22816,7 +23589,15 @@ PrefabInstance:
       value: RewardItem (73)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -22970,7 +23751,15 @@ PrefabInstance:
       value: RewardItem (39)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -23193,7 +23982,15 @@ PrefabInstance:
       value: RewardItem (37)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -23336,6 +24133,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.18, z: 1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1984944440}
   - {fileID: 879728048}
@@ -23379,6 +24177,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.008, z: -1.314}
   m_LocalScale: {x: 2.49, y: 0.25, z: 0.28}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1955358335}
   m_RootOrder: 0
@@ -23502,7 +24301,15 @@ PrefabInstance:
       value: RewardItem (56)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -23656,7 +24463,15 @@ PrefabInstance:
       value: RewardItem (48)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -23805,7 +24620,15 @@ PrefabInstance:
       value: RewardItem (60)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -23920,6 +24743,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -23987,6 +24811,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.9089999, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 8
@@ -24055,7 +24880,15 @@ PrefabInstance:
       value: RewardItem (17)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -24209,7 +25042,15 @@ PrefabInstance:
       value: RewardItem (53)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -24324,6 +25165,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1042418826}
   m_RootOrder: 0
@@ -24414,7 +25256,15 @@ PrefabInstance:
       value: RewardItem (129)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -24573,7 +25423,15 @@ PrefabInstance:
       value: RewardItem (114)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -24722,7 +25580,15 @@ PrefabInstance:
       value: RewardItem (120)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -24839,6 +25705,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.22, y: 3.93, z: -1}
   m_LocalScale: {x: 0.2, y: 5.08, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2012425630}
   m_RootOrder: 0
@@ -24895,6 +25762,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.01, y: 0.664, z: -3.7}
   m_LocalScale: {x: 2.3818707, y: 0.019670498, z: 2.3818707}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 6
@@ -24910,6 +25778,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25195,7 +26064,15 @@ PrefabInstance:
       value: RewardItem (116)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -25315,6 +26192,10 @@ PrefabInstance:
     - target: {fileID: 8281556653566893341, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
@@ -25483,7 +26364,15 @@ PrefabInstance:
       value: RewardItem (51)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -25642,7 +26531,15 @@ PrefabInstance:
       value: RewardItem (34)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -25791,7 +26688,15 @@ PrefabInstance:
       value: RewardItem (119)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -25945,7 +26850,15 @@ PrefabInstance:
       value: RewardItem (76)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -26099,7 +27012,15 @@ PrefabInstance:
       value: RewardItem (23)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -26253,7 +27174,15 @@ PrefabInstance:
       value: RewardItem (115)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -26396,6 +27325,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 308804723}
   - {fileID: 790045689}
@@ -26613,7 +27543,15 @@ PrefabInstance:
       value: RewardItem (94)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -26730,6 +27668,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3.1, z: -1.314}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1142227315}
   - {fileID: 4388668571933436239}
@@ -26844,7 +27783,15 @@ PrefabInstance:
       value: RewardItem (57)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -27003,7 +27950,15 @@ PrefabInstance:
       value: RewardItem (14)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -27157,7 +28112,15 @@ PrefabInstance:
       value: RewardItem (111)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -27252,6 +28215,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.81, y: 0.29999998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 601595691}
   m_RootOrder: 0
@@ -27268,6 +28232,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -27298,6 +28263,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_RenderMode: 0
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 1
@@ -27321,6 +28287,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!198 &1738622250
 ParticleSystem:
@@ -27329,19 +28299,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738640810}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -27891,6 +28861,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 1
     rotation3D: 0
     gravityModifier:
@@ -32292,7 +33263,15 @@ PrefabInstance:
       value: RewardItem (107)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -32441,7 +33420,15 @@ PrefabInstance:
       value: RewardItem (99)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -32600,7 +33587,15 @@ PrefabInstance:
       value: RewardItem (93)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -32814,7 +33809,15 @@ PrefabInstance:
       value: RewardItem (67)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -32973,7 +33976,15 @@ PrefabInstance:
       value: RewardItem (126)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -33127,7 +34138,15 @@ PrefabInstance:
       value: RewardItem (124)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -33276,7 +34295,15 @@ PrefabInstance:
       value: RewardItem (30)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -33579,7 +34606,15 @@ PrefabInstance:
       value: RewardItem (47)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -33733,7 +34768,15 @@ PrefabInstance:
       value: RewardItem (32)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -33887,7 +34930,15 @@ PrefabInstance:
       value: RewardItem (92)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34013,6 +35064,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 777601308}
   - {fileID: 54763108}
@@ -34150,7 +35202,15 @@ PrefabInstance:
       value: RewardItem (68)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34261,6 +35321,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.002, y: 3.09, z: -11.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1861558512}
   - {fileID: 1087691361}
@@ -34336,7 +35397,15 @@ PrefabInstance:
       value: RewardItem (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34490,7 +35559,15 @@ PrefabInstance:
       value: RewardItem (112)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34606,6 +35683,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2084076344}
   - {fileID: 808070286}
@@ -34685,7 +35763,15 @@ PrefabInstance:
       value: RewardItem (87)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34834,7 +35920,15 @@ PrefabInstance:
       value: RewardItem (128)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -34965,6 +36059,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 227905684}
   m_RootOrder: 0
@@ -35051,7 +36146,15 @@ PrefabInstance:
       value: RewardItem (55)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -35210,7 +36313,15 @@ PrefabInstance:
       value: RewardItem (18)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -35359,7 +36470,15 @@ PrefabInstance:
       value: RewardItem (52)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -35496,6 +36615,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1411917573}
   - {fileID: 767175453}
@@ -35518,6 +36638,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 5.68, z: -1.314}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 438954744}
   m_RootOrder: 3
@@ -35602,7 +36723,15 @@ PrefabInstance:
       value: RewardItem (35)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -35729,6 +36858,10 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
+      propertyPath: Panel
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996001381144728861, guid: 70ffc5986053da141ac0d3260f7a383c, type: 3}
       propertyPath: index
       value: 5
       objectReference: {fileID: 0}
@@ -35853,6 +36986,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -35907,6 +37041,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.81915206, z: -0.57357645, w: 0}
   m_LocalPosition: {x: 0, y: 5.08, z: 0.3145}
   m_LocalScale: {x: 0.61837935, y: 0.6692033, z: 0.8473172}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1401293727}
   m_RootOrder: 0
@@ -35948,6 +37083,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1583578397}
   - {fileID: 1250368303}
@@ -36044,7 +37180,15 @@ PrefabInstance:
       value: RewardItem (22)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -36203,7 +37347,15 @@ PrefabInstance:
       value: RewardItem (45)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -36357,7 +37509,15 @@ PrefabInstance:
       value: RewardItem (109)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -36516,7 +37676,15 @@ PrefabInstance:
       value: RewardItem (117)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -36670,7 +37838,15 @@ PrefabInstance:
       value: RewardItem (88)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -36824,7 +38000,15 @@ PrefabInstance:
       value: RewardItem (90)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -37008,6 +38192,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7754982331343569376}
   m_RootOrder: 11
@@ -37126,7 +38311,15 @@ PrefabInstance:
       value: RewardItem (71)
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowSod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
       propertyPath: rewardNum
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
+      propertyPath: BurrowRear
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2084187957516922227, guid: ecd8b582db064824e9c7244e3f2e1d3d, type: 3}
@@ -37226,6 +38419,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4.05, z: -4.938}
   m_LocalScale: {x: 50, y: 1, z: 50}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7754982331343569376}
   m_RootOrder: 7
@@ -37283,6 +38477,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -37338,6 +38533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -37373,6 +38569,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -37467,6 +38664,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -5.06, z: -3.696}
   m_LocalScale: {x: 1.2984318, y: 0.41527742, z: 1.2984318}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 5
@@ -37481,6 +38679,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.787, y: 1.8, z: -0.241}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 1
@@ -37495,6 +38694,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
   m_LocalPosition: {x: -0.024, y: 1.422, z: 0.576}
   m_LocalScale: {x: 1.0914, y: 1.0914, z: 1.0914}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 6
@@ -37509,6 +38709,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.931, z: -1.703}
   m_LocalScale: {x: 0.97, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 2
@@ -37523,6 +38724,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.787, y: 1.8, z: -0.398}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 0
@@ -37537,6 +38739,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.736, z: 0.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 598549740}
   m_Father: {fileID: 504471194}
@@ -37552,6 +38755,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.787, y: 1.8, z: -0.398}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 2
@@ -37566,6 +38770,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.889, z: 1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 4
@@ -37580,6 +38785,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.353, z: -2.839}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 4
@@ -37594,6 +38800,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.882, z: 2.0509996}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 5
@@ -37608,6 +38815,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.787, y: 1.8, z: -0.241}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773933105}
   m_RootOrder: 3
@@ -37880,6 +39088,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -37921,6 +39130,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -37962,6 +39172,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38003,6 +39214,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38044,6 +39256,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38085,6 +39298,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38126,6 +39340,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38167,6 +39382,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38208,6 +39424,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38249,6 +39466,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38290,6 +39508,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -38327,19 +39546,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5760884048668487645}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -38889,6 +40108,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -43037,6 +44257,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -43183,6 +44404,7 @@ Transform:
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1683515070}
   m_RootOrder: 1
@@ -43217,6 +44439,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -43247,6 +44470,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_RenderMode: 0
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
@@ -43270,6 +44494,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!33 &6609694082755869846
 MeshFilter:
@@ -43323,6 +44551,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -64.9, z: -56.1}
   m_LocalScale: {x: 1.308403, y: 1.7159379, z: 1.7159379}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7046332124966915476}
   m_RootOrder: 1
@@ -43338,6 +44567,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -43428,6 +44658,7 @@ Transform:
   m_LocalRotation: {x: 0.16230132, y: -0, z: -0, w: 0.98674124}
   m_LocalPosition: {x: 0, y: 8.296797, z: -1.97}
   m_LocalScale: {x: 0.09187418, y: 0.09187418, z: 0.09187418}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7046332125075211039}
   - {fileID: 7046332124877333198}
@@ -43479,6 +44710,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -92.4, z: 3.5}
   m_LocalScale: {x: 1.4096725, y: 1.1096287, z: 0.98783296}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7046332124966915476}
   m_RootOrder: 0
@@ -43495,6 +44727,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -43525,6 +44758,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_RenderMode: 4
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
@@ -43548,6 +44782,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!198 &7046332125075275235
 ParticleSystem:
@@ -43556,19 +44794,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7046332125075210365}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -44118,6 +45356,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -48341,6 +49580,7 @@ Transform:
   m_LocalRotation: {x: -0.8231363, y: -0, z: -0, w: 0.56784374}
   m_LocalPosition: {x: 0, y: -63.6, z: 14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8767075432800899211}
   m_Father: {fileID: 7046332124966915476}
@@ -48416,6 +49656,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -48446,6 +49687,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_RenderMode: 0
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
@@ -48469,6 +49711,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!64 &7754982331230407903
 MeshCollider:
@@ -48570,13 +49816,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 182053717}
   - {fileID: 7046332124966915476}
   - {fileID: 7788274249687258910}
   - {fileID: 504471194}
-  - {fileID: 1308161460}
   - {fileID: 773933105}
+  - {fileID: 1308161460}
   - {fileID: 1401293727}
   - {fileID: 2123200495}
   - {fileID: 1089029659}
@@ -48630,6 +49877,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 0.17, z: -5.813}
   m_LocalScale: {x: 1.5, y: 1.3, z: 1.5}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1215052077}
   m_Father: {fileID: 7754982331343569376}
@@ -48645,6 +49893,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.298, z: -2.796}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 3
@@ -48659,6 +49908,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.9089999, z: -0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 504471194}
   m_RootOrder: 1
@@ -48670,19 +49920,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7304712972228256996}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 1
   simulationSpeed: 2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 1
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -49232,6 +50482,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -53379,6 +54630,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7304712972228285212}
   m_RootOrder: 0
@@ -53399,6 +54651,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -53440,6 +54693,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -53481,6 +54735,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
