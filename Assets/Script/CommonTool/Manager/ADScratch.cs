@@ -462,23 +462,38 @@ public class ADScratch : MonoBehaviour
                 RemunerationProboscis = GameUtil.GetInterstitialData();
                 UIManager.BuyDuctless().BuryUIVisit(nameof(DifferBoil));
                 DifferBoil.Instance.NoseTine(RemunerationProboscis);
-                DOVirtual.DelayedCall(0.5f, () => //停顿
+                DOVirtual.DelayedCall(1f, () => //停顿
                 {
                     UIManager.BuyDuctless().ShaftIfAcidicUIVisit(nameof(DifferBoil));
+                    GoHistoryAd = true;
+                    // 打点
+                    string point = index.ToString();
+                    if (customIndex > 0)
+                    {
+                        point += customIndex.ToString().PadLeft(2, '0');
+                    }
+                    ExperimenterImage = point;
+                    CardHonorDecode.BuyDuctless().SaltHonor("9102", point);
+                    string placement = point + "_" + ExperimenterMammothStep;
+                    RemunerationOnMobileTine.Dependent_Go = placement;
+                    MaxSdk.ShowInterstitial(MAX_INTER_ID, placement, JsonMapper.ToJson(RemunerationOnMobileTine));
                 });
             }
-            GoHistoryAd = true;
-            // 打点
-            string point = index.ToString();
-            if (customIndex > 0)
+            else
             {
-                point += customIndex.ToString().PadLeft(2, '0');
+                GoHistoryAd = true;
+                // 打点
+                string point = index.ToString();
+                if (customIndex > 0)
+                {
+                    point += customIndex.ToString().PadLeft(2, '0');
+                }
+                ExperimenterImage = point;
+                CardHonorDecode.BuyDuctless().SaltHonor("9102", point);
+                string placement = point + "_" + ExperimenterMammothStep;
+                RemunerationOnMobileTine.Dependent_Go = placement;
+                MaxSdk.ShowInterstitial(MAX_INTER_ID, placement, JsonMapper.ToJson(RemunerationOnMobileTine));
             }
-            ExperimenterImage = point;
-            CardHonorDecode.BuyDuctless().SaltHonor("9102", point);
-            string placement = point + "_" + ExperimenterMammothStep;
-            RemunerationOnMobileTine.Dependent_Go = placement;
-            MaxSdk.ShowInterstitial(MAX_INTER_ID, placement, JsonMapper.ToJson(RemunerationOnMobileTine));
         }
     }
 

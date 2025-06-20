@@ -147,6 +147,7 @@ public class CashOutPanel : ForkUIVisit
     {
         base.Hidding();
         transform.root.GetComponent<CanvasScaler>().referenceResolution = new Vector2(750, 1334);
+        NucleusCandidTribe.BuyDuctless().Salt(CBuckle.Gem_Toss_Jolt_Zone,null);
         CashOutManager.BuyDuctless().WaitToSendEvent1304();
     }
 

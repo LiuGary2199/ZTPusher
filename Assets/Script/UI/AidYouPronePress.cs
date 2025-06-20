@@ -89,6 +89,7 @@ public class AidYouPronePress : ForkUIVisit
             LeoOak.gameObject.SetActive(false);
             IDRay.gameObject.SetActive(false);
             LeoOakAfar.transform.localPosition = new Vector3(0f, 0f, 0f);
+            AutoTineScratch.YouGet(CBuckle.Go_ID_Hotel_Cud, AutoTineScratch.BuyGet(CBuckle.Go_ID_Hotel_Cud) + 1);
         }
         else
         {
