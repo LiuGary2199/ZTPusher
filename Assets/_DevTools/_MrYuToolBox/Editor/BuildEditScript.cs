@@ -138,7 +138,7 @@ public class BuildEditScript : MonoBehaviour
         }
         else
         {
-            PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel21;
+            //PlayerSettings.Android.minSdkVersion = AndroidSdkVersions.AndroidApiLevel21;
             PlayerSettings.Android.targetSdkVersion = AndroidSdkVersions.AndroidApiLevel30;
             PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
             AndroidArchitecture aac = AndroidArchitecture.ARM64 | AndroidArchitecture.ARMv7;
