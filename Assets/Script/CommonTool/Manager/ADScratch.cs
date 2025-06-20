@@ -41,6 +41,7 @@ public class ADScratch : MonoBehaviour
     private double RemunerationProboscis= 0;
     private void Awake()
     {
+
         Ductless = this;
     }
 

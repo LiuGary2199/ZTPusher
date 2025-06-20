@@ -13,6 +13,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Data;
 using com.adjust.sdk;
+using System.Globalization;
 //using MoreMountains.NiceVibrations;
 
 public class BisHeadCar : MonoBehaviour
@@ -76,6 +77,9 @@ public class BisHeadCar : MonoBehaviour
 #endif
     void Awake()
     {
+
+        //CultureInfo russianCulture = new CultureInfo("ru-RU");
+        //System.Threading.Thread.CurrentThread.CurrentCulture = russianCulture;
         instance = this;
         FacetBay = ForkFacetBay + DramBomb + "&channel=" + Anxiety + "&version=" + Application.version;
         BuckleBay = ForkBuckleBay + DramBomb + "&channel=" + Anxiety + "&version=" + Application.version;

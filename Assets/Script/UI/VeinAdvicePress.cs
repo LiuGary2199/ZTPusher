@@ -38,10 +38,10 @@ public class VeinAdvicePress : ForkUIVisit
         {
             int buyCount = PlayerPrefs.GetInt("MoneyBuyBall", 1);
             double coincount = DramTineScratch.BuyDuctless().BuyStir();
-            double needSod= buyCount * 5000;
-            if (needSod >= 30000)
+            double needSod= buyCount * 50000;
+            if (needSod >= 300000)
             {
-                needSod = 30000;
+                needSod = 300000;
             }
             if (coincount >= needSod)
             {
@@ -106,11 +106,11 @@ public class VeinAdvicePress : ForkUIVisit
 
             int buyCount = PlayerPrefs.GetInt("MoneyBuyBall", 1);
             double coincount = DramTineScratch.BuyDuctless().BuyStir();
-            double needSod= buyCount * 5000;
+            double needSod= buyCount * 50000;
             SparStirSod.text = needSod.ToString();
-            if (needSod >= 30000)
+            if (needSod >= 300000)
             {
-                needSod = 30000;
+                needSod = 300000;
             }
             if (coincount >= needSod)
             {

@@ -62,7 +62,7 @@ public class HolderScratch : MonoBehaviour
     /// <returns></returns>
     IEnumerator SkateUpsideLampUser()
     {
-        yield return new WaitForSeconds(float.Parse(BisHeadCar.instance.DramTine.base_config.touch_cd));
+        yield return new WaitForSeconds(PartlySkin.FoeFreelyFloat(BisHeadCar.instance.DramTine.base_config.touch_cd));
         SkateClue = false;
     }
 
