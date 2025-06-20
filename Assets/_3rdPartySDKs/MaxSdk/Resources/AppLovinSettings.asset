@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b28b7ab17dd384db257c4219aa84b4, type: 3}
+  m_Name: AppLovinSettings
+  m_EditorClassIdentifier: 
+  qualityServiceEnabled: 1
+  sdkKey: jsNNAA+pudntojfVh9dy1r4JV1XPQqR8HEcC7P/TGln8NZN5dFld4nYuVoQ7KNkrWljoIL/6LGvf+hR8YacQ/8EOmzMkG39w0MZxw59ibF127HmzBwX6iA==
+  setAttributionReportEndpoint: 0
+  consentFlowEnabled: 0
+  consentFlowPlatform: 0
+  consentFlowPrivacyPolicyUrl: 
+  consentFlowTermsOfServiceUrl: 
+  userTrackingUsageDescriptionEn: 
+  userTrackingUsageLocalizationEnabled: 0
+  userTrackingUsageDescriptionDe: 
+  userTrackingUsageDescriptionEs: 
+  userTrackingUsageDescriptionFr: 
+  userTrackingUsageDescriptionJa: 
+  userTrackingUsageDescriptionKo: 
+  userTrackingUsageDescriptionZhHans: 
+  userTrackingUsageDescriptionZhHant: 
+  adMobAndroidAppId: 
+  adMobIosAppId: 
+  showInternalSettingsInIntegrationManager: 0

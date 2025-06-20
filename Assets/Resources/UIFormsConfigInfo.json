@@ -1,0 +1,67 @@
+{
+  "ConfigInfo": [
+    {
+      "Key": "本配置文件说明"
+    },
+    {
+      "Key": "DramPress",
+      "Value": "UIPanel\\DramPress"
+    },
+    {
+      "Key": "AidYouPronePress",
+      "Value": "UIPanel\\AidYouPronePress"
+    },
+    {
+      "Key": "FaintlyNevusPress",
+      "Value": "UIPanel\\FaintlyNevusPress"
+    },
+    {
+      "Key": "ThankCapePress",
+      "Value": "UIPanel\\ThankCapePress"
+    },
+    {
+      "Key": "VeinPaceDealPress",
+      "Value": "UIPanel\\VeinPaceDealPress"
+    },
+    {
+      "Key": "VeinAdvicePress",
+      "Value": "UIPanel\\VeinAdvicePress"
+    },
+    {
+      "Key": "VeinTunePress",
+      "Value": "UIPanel\\VeinTunePress"
+    },
+    {
+      "Key": "ChoppyYouPronePress",
+      "Value": "UIPanel\\ChoppyYouPronePress"
+    },
+    {
+      "Key": "CaptureCapePress",
+      "Value": "UIPanel\\CaptureCapePress"
+    },
+    {
+      "Key": "HygienePress",
+      "Value": "UIPanel\\HygienePress"
+    },
+    {
+      "Key": "DonFuelHygienePress",
+      "Value": "UIPanel\\DonFuelHygienePress"
+    },
+    {
+      "Key": "Those",
+      "Value": "UIPanel\\Those"
+    },
+    {
+      "Key": "MailMyPress",
+      "Value": "UIPanel\\MailMyPress"
+    },
+    {
+        "Key": "CashOutPanel",
+        "Value": "UIPanel\\CashOutPanel"
+    },
+    {
+      "Key": "DifferBoil",
+      "Value": "UIPanel\\DifferBoil"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8bc088156c3fe4a4db2626db9a7198ff
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/Editor/MaxPostProcessBuildAndroid.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
