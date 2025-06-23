@@ -365,7 +365,7 @@ public class ADScratch : MonoBehaviour
 #endif
         ScarRemuneration();
 
-        GuildOnExamSeabird(ADType.Interstitial);
+       GuildOnExamSeabird(ADType.Interstitial);
         CardHonorDecode.BuyDuctless().SaltHonor("9107", ExperimenterImage);
         // 上报ecpm
         CashOutManager.BuyDuctless().ReportEcpm(adInfo, RemunerationOnMobileTine.Fishery_Go, "INTER");
@@ -459,10 +459,11 @@ public class ADScratch : MonoBehaviour
         {
             if (ExperimenterRear == 101)
             {
+                GoHistoryAd = true;
                 DOVirtual.DelayedCall(2f, () => //停顿
                 {
                     UIManager.BuyDuctless().ShaftIfAcidicUIVisit(nameof(DifferBoil));
-                    GoHistoryAd = true;
+
                     // 打点
                     string point = index.ToString();
                     if (customIndex > 0)

@@ -139,6 +139,7 @@ public class CashOutPanel : ForkUIVisit
     public override void Display( )
     {
         base.Display();
+        HuntScratch.Instance.DramLady();
         transform.root.GetComponent<CanvasScaler>().referenceResolution = new Vector2(1080, 1920);
         UpdateUserInfo();
     }
@@ -146,6 +147,7 @@ public class CashOutPanel : ForkUIVisit
     public override void Hidding()
     {
         base.Hidding();
+        HuntScratch.Instance.DramWitness();
         transform.root.GetComponent<CanvasScaler>().referenceResolution = new Vector2(750, 1334);
         NucleusCandidTribe.BuyDuctless().Salt(CBuckle.Gem_Toss_Jolt_Zone,null);
         AutoTineScratch.YouGet(CBuckle.Go_ID_Hotel_Cud, AutoTineScratch.BuyGet(CBuckle.Go_ID_Hotel_Cud) + 1);
