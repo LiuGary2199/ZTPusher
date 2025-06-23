@@ -298,7 +298,7 @@ public class GameUtil
         {
             AutoTineScratch.YouExpend(CBuckle.Go_bigwin_Attach_Clump,
                 AutoTineScratch.BuyExpend(CBuckle.Go_bigwin_Attach_Clump) *
-                float.Parse(BisHeadCar.instance.DramTine.base_config.bigwin_weight_multi));
+                PartlySkin.FoeFreelyFloat(BisHeadCar.instance.DramTine.base_config.bigwin_weight_multi));
         }
         else
         {
@@ -388,8 +388,8 @@ public class GameUtil
             {
                 if (type == RewardType.Cash)
                 {
-                    float random = Random.Range(float.Parse(BisHeadCar.instance.NoseTine.cash_random[0]),
-                        float.Parse(BisHeadCar.instance.NoseTine.cash_random[1]));
+                    float random = Random.Range(PartlySkin.FoeFreelyFloat(BisHeadCar.instance.NoseTine.cash_random[0]),
+                        PartlySkin.FoeFreelyFloat(BisHeadCar.instance.NoseTine.cash_random[1]));
                     return item.multi * (1 + random);
                 }
                 else

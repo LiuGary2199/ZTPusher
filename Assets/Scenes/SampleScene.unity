@@ -4027,6 +4027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoadingPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 6338613744699222061, guid: 34972d17b5526e340a1456ef8a7b8da7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6440092253112336644, guid: 34972d17b5526e340a1456ef8a7b8da7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

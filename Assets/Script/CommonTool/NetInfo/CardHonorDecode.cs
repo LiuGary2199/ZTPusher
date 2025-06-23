@@ -159,18 +159,22 @@ public class CardHonorDecode : WhigSuccessor<CardHonorDecode>
     IEnumerator SaltCard(string _url, WWWForm wwwForm, Action<string> fail, Action<string> success)
     {
         //Debug.Log(SerializeDictionaryToJsonString(dic));
-        UnityWebRequest request = UnityWebRequest.Post(_url, wwwForm);
-        yield return request.SendWebRequest();
-        if (request.isNetworkError || request.isNetworkError)
+        using (UnityWebRequest request = UnityWebRequest.Post(_url, wwwForm)) 
         {
-            fail(request.error);
-            LogNeutral();
-        }
-        else
-        {
-            success(request.downloadHandler.text);
-            LogNeutral();
-        }
+            yield return request.SendWebRequest();
+            if (request.isNetworkError || request.isNetworkError)
+            {
+                fail(request.error);
+                LogNeutral();
+            }
+            else
+            {
+                success(request.downloadHandler.text);
+                LogNeutral();
+            }
+
+        } 
+       
     }
     private void LogNeutral()
     {
