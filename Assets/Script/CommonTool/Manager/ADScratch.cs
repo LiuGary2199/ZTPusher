@@ -429,7 +429,6 @@ public class ADScratch : MonoBehaviour
     private void HairRemuneration(int index, int customIndex = 0)
     {
         ExperimenterRear = index;
-
         if (GoHistoryAd)
         {
             return;
@@ -460,10 +459,7 @@ public class ADScratch : MonoBehaviour
         {
             if (ExperimenterRear == 101)
             {
-                RemunerationProboscis = GameUtil.GetInterstitialData();
-                UIManager.BuyDuctless().BuryUIVisit(nameof(DifferBoil));
-                DifferBoil.Instance.NoseTine(RemunerationProboscis);
-                DOVirtual.DelayedCall(1f, () => //停顿
+                DOVirtual.DelayedCall(2f, () => //停顿
                 {
                     UIManager.BuyDuctless().ShaftIfAcidicUIVisit(nameof(DifferBoil));
                     GoHistoryAd = true;
@@ -518,6 +514,36 @@ public class ADScratch : MonoBehaviour
             if (Playful101 >= relax_interval && !DrainUserRemuneration)
             {
                 HairRemuneration(101);
+            }
+
+            if (Playful101 + 2 >= relax_interval && !DrainUserRemuneration)
+            {
+                if (GoHistoryAd)
+                {
+                    return;
+                }
+                int sv_trialNum = AutoTineScratch.BuyGet(CBuckle.Go_ID_Hotel_Cud);
+                int trial_MaxNum = int.Parse(BisHeadCar.instance.BuckleTine.trial_MaxNum);
+                if (sv_trialNum < trial_MaxNum)
+                {
+                    return;
+                }
+                if (FootExamUserLawlike < int.Parse(BisHeadCar.instance.BuckleTine.inter_freq))
+                {
+                    return;
+                }
+                if (GoFolk)
+                {
+                    GuildOnExamSeabird(ADType.Interstitial);
+                    return;
+                }
+                bool interstitialVideoReady = MaxSdk.IsInterstitialReady(MAX_INTER_ID);
+                if (interstitialVideoReady)
+                {
+                    RemunerationProboscis = GameUtil.GetInterstitialData();
+                    UIManager.BuyDuctless().BuryUIVisit(nameof(DifferBoil));
+                    DifferBoil.Instance.NoseTine(RemunerationProboscis);
+                }
             }
         }
     }
