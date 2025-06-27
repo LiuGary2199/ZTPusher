@@ -168,10 +168,10 @@ public class ADScratch : MonoBehaviour
         BurrowMammothStep = adInfo.NetworkName;
 
         AdviceOnMobileTine = new Ad_CustomData();
-        AdviceOnMobileTine.Bush_id = CashOutManager.BuyDuctless().Data.UserID;
-        AdviceOnMobileTine.Similar = Application.version;
-        AdviceOnMobileTine.Fishery_Go = CashOutManager.BuyDuctless().EcpmRequestID();
-        AdviceOnMobileTine.Afraid = adInfo.NetworkName;
+        AdviceOnMobileTine.user_id = CashOutManager.BuyDuctless().Data.UserID;
+        AdviceOnMobileTine.version = Application.version;
+        AdviceOnMobileTine.request_id = CashOutManager.BuyDuctless().EcpmRequestID();
+        AdviceOnMobileTine.vendor = adInfo.NetworkName;
     }
 
     private void OnRewardedAdLoadFailedEvent(string adUnitId, MaxSdkBase.ErrorInfo errorInfo)
@@ -229,7 +229,7 @@ public class ADScratch : MonoBehaviour
         }
 
         // 上报ecpm
-        CashOutManager.BuyDuctless().ReportEcpm(adInfo, AdviceOnMobileTine.Fishery_Go, "REWARD");
+        CashOutManager.BuyDuctless().ReportEcpm(adInfo, AdviceOnMobileTine.request_id, "REWARD");
     }
 
     private void OnRewardedAdReceivedRewardEvent(string adUnitId, MaxSdk.Reward reward, MaxSdkBase.AdInfo adInfo)
@@ -285,10 +285,10 @@ public class ADScratch : MonoBehaviour
         ExperimenterMammothStep = adInfo.NetworkName;
 
         RemunerationOnMobileTine = new Ad_CustomData();
-        RemunerationOnMobileTine.Bush_id = CashOutManager.BuyDuctless().Data.UserID;
-        RemunerationOnMobileTine.Similar = Application.version;
-        RemunerationOnMobileTine.Fishery_Go = CashOutManager.BuyDuctless().EcpmRequestID();
-        RemunerationOnMobileTine.Afraid = adInfo.NetworkName;
+        RemunerationOnMobileTine.user_id = CashOutManager.BuyDuctless().Data.UserID;
+        RemunerationOnMobileTine.version = Application.version;
+        RemunerationOnMobileTine.request_id = CashOutManager.BuyDuctless().EcpmRequestID();
+        RemunerationOnMobileTine.vendor = adInfo.NetworkName;
     }
 
     private void OnInterstitialLoadFailedEvent(string adUnitId, MaxSdkBase.ErrorInfo errorInfo)
@@ -368,7 +368,7 @@ public class ADScratch : MonoBehaviour
        GuildOnExamSeabird(ADType.Interstitial);
         CardHonorDecode.BuyDuctless().SaltHonor("9107", ExperimenterImage);
         // 上报ecpm
-        CashOutManager.BuyDuctless().ReportEcpm(adInfo, RemunerationOnMobileTine.Fishery_Go, "INTER");
+        CashOutManager.BuyDuctless().ReportEcpm(adInfo, RemunerationOnMobileTine.request_id, "INTER");
     }
 
 
@@ -396,7 +396,7 @@ public class ADScratch : MonoBehaviour
             GoHistoryAd = true;
             BurrowSeabird = false;
             string placement = index + "_" + BurrowMammothStep;
-            AdviceOnMobileTine.Dependent_Go = placement;
+            AdviceOnMobileTine.placement_id = placement;
             MaxSdk.ShowRewardedAd(MAX_REWARD_ID, placement, JsonMapper.ToJson(AdviceOnMobileTine));
         }
         else
@@ -473,7 +473,7 @@ public class ADScratch : MonoBehaviour
                     ExperimenterImage = point;
                     CardHonorDecode.BuyDuctless().SaltHonor("9102", point);
                     string placement = point + "_" + ExperimenterMammothStep;
-                    RemunerationOnMobileTine.Dependent_Go = placement;
+                    RemunerationOnMobileTine.placement_id = placement;
                     MaxSdk.ShowInterstitial(MAX_INTER_ID, placement, JsonMapper.ToJson(RemunerationOnMobileTine));
                 });
             }
@@ -489,7 +489,7 @@ public class ADScratch : MonoBehaviour
                 ExperimenterImage = point;
                 CardHonorDecode.BuyDuctless().SaltHonor("9102", point);
                 string placement = point + "_" + ExperimenterMammothStep;
-                RemunerationOnMobileTine.Dependent_Go = placement;
+                RemunerationOnMobileTine.placement_id = placement;
                 MaxSdk.ShowInterstitial(MAX_INTER_ID, placement, JsonMapper.ToJson(RemunerationOnMobileTine));
             }
         }
@@ -709,9 +709,9 @@ public enum ADType { Interstitial, Rewarded }
 [System.Serializable]
 public class Ad_CustomData //广告自定义数据
 {
-    public string Bush_id; //用户id
-    public string Similar; //版本号
-    public string Fishery_Go; //请求id
-    public string Afraid; //渠道
-    public string Dependent_Go; //广告位id
+    public string user_id; //用户id
+    public string version; //版本号
+    public string request_id; //请求id
+    public string vendor; //渠道
+    public string placement_id; //广告位id
 }
